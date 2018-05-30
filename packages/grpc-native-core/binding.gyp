@@ -27,7 +27,7 @@
     # Some Node installations use the system installation of OpenSSL, and on
     # some systems, the system OpenSSL still does not have ALPN support. This
     # will let users recompile gRPC to work without ALPN.
-    'grpc_alpn%': 'true',
+    'grpc_alpn%': 'false',
     # Indicates that the library should be built with gcov.
     'grpc_gcov%': 'false',
     # Indicates that the library should be built with compatibility for musl
